@@ -1,0 +1,10 @@
+---
+layout: page
+title:  "sludge bands"
+---
+
+{% for band in site.data.metal_bands_2017 %}
+    {% if band.style contains "sludge" %}
+        <h3>{{band.band_name}}</h3>
+    {% endif %}
+{% endfor %}

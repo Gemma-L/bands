@@ -1,0 +1,10 @@
+---
+layout: page
+title:  "not-active bands"
+---
+
+{% for band in site.data.metal_bands_2017 %}
+    {% if band.split != "-" %}
+        <h3>{{band.band_name}}</h3>
+    {% endif %}
+{% endfor %}
