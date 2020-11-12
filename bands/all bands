@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+---
+
+{% for band in site.data.metal_bands_2017 %}
+    <h1>{{ band.band_name}}<h1>
+{% endfor %}
