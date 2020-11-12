@@ -1,0 +1,10 @@
+---
+layout: page
+title:  "Australisia bands"
+---
+
+{% for band in site.data.metal_bands_2017 %}
+    {% if band.origin contains "Australia" and "Zealand" %}
+        <h3>{{band.band_name}}</h3>
+    {% endif %}
+{% endfor %}
