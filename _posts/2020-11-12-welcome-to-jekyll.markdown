@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Bands Archive!"
 date:   2020-11-12 17:52:33 +0800
 categories: jekyll update
 ---
